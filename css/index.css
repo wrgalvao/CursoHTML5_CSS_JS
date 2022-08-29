@@ -1,5 +1,27 @@
 h1
 {
+    font-family: cursive;
     color: rgb(45, 95, 95);
     text-align: center;
+}
+footer
+{
+    background-color: aliceblue;
+    padding: 15px;
+    text-align: center;
+}
+body
+{
+    background-color: aliceblue;
+    padding: 15px;
+}
+a
+{
+    text-decoration: none;
+}
+p
+{
+    text-align: center;
+    font-size: 18pt;
+    font-family: cursive;
 }
