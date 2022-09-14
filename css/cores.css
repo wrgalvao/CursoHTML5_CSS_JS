@@ -22,3 +22,16 @@ p{
     text-align: justify;
     color: rgba(23, 46, 94, 0.479);
 }
+#degrade
+{
+    background-image: linear-gradient(to right, red, green, blue);
+    color: white;
+}
+body
+{
+    background-image: radial-gradient(circle, red, blue, green);
+}
+p
+{
+    color: white;
+}
