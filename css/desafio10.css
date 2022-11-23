@@ -5,6 +5,11 @@
     src: url('../fonts/idroid.otf') format('opentype');
     font-weight: normal;
 }
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
 
 /*
 cores:
@@ -25,7 +30,9 @@ body
 }
 header
 {
+    padding-top: 40px;
     width: 100vw;
+    min-height: 150px;
     background-color: #1a5c37
 }
 header > h1 
@@ -33,18 +40,31 @@ header > h1
     color: white;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
+    margin-bottom: 20px;
+    max-width: 600px;
+    margin: auto;
 }
 header > p
 {
+    max-width: 650px;
+    margin: auto;
     text-align: center;
     color: white;
+    font-size: 1.2em;
 }
 .corpo
 {
+    padding: 20px;
+    border-radius: 10px;
     background-color: white;
     margin: auto;
     width: 90%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.80);
+}
+.corpo p
+{
+    line-height: 30px;
+    padding: 10px;
 }
 .paragrafos
 {
@@ -72,4 +92,71 @@ main h2
     color: white;
     text-decoration: none;
     margin-left: 20px;
+}
+main
+{
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+}
+main img
+{
+    width: 100%;
+}
+main img.pequena
+{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+nav
+{
+    padding: 10px;
+}
+.linksMenu:hover
+{
+    background-color: #2fa866;
+    color: #063d1e;
+
+}
+.linksMenu
+{
+    border-radius: 5px;
+    padding: 10px;
+}
+.menu
+{
+    margin-top: 50px;
+}
+aside
+{
+    background-color: #83e1ad;
+    border-radius: 10px;
+    padding: 10px;
+}
+aside h2
+{
+    background-color: #1a5c37;
+    color: white;
+    margin: -10px -10px 0px -10px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+aside > ul
+{
+    list-style-position: inside;
+    columns: 2;
+}
+#linkFooter
+{
+    color: white;
+    text-decoration: none;
+}
+#linkFooter:hover
+{
+    text-decoration: underline;
+}
+div.video
+{
+    text-align: center;
 }
